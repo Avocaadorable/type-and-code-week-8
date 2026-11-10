@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fbfbfb;
+}
+
+#rhino{
+   color:aqua;
+   height: 350px;
+}
+
+.broccoli{
+    color: #00ff00;
+    background-color: #bcbbbb !important;
+    border-radius: 10px;
+}
+
+.cucumber{
+    color: #ff0000;
+    background-color: #fd0eb5 !important;
+    border-radius: 10px;
+}
+
+button{
+    padding: 0.3px;
+    border-radius: 0.5px;
+    border: none;
+    cursor: pointer;
+    color:#fd0eb5;
+    border-color: #f61e997d;
+    border-width: 1px;
+    border-style: solid;
+}

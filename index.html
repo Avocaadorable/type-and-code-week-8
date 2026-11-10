@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="rhino">hellooooo</div>
+    <button id="gabriel">CLICK MEEEEEE</button>
+    <button id="jiabao">Do Not Click Meeee</button>
+
+    <script>
+    function big(){
+        rhino.textContent = "gaga"
+        rhino.style.backgroundColor = "blue"
+        rhino.style.fontSize = Math.random() * 100 + "px"
+        rhino.classList.toggle("broccoli")
+        rhino.style.backgroundImage = 'url("1.png")';
+        rhino.style.backgroundSize = "cover"; 
+        rhino.style.backgroundPosition = "center";
+        rhino.style.backgroundRepeat = "no-repeat";
+    }
+
+    gabriel.addEventListener("click", big)
+
+    // big()
+    // setTimeout(big, 1000)
+    // setInterval(big,1000)
+
+function small(){
+        rhino.textContent = "yaya"
+        rhino.style.backgroundColor = "black"
+        rhino.style.fontSize = Math.random() * 100 + "px"
+        rhino.classList.toggle("cucumber")
+        rhino.style.backgroundImage = 'url("2.png")';
+        rhino.style.backgroundSize = "cover"; 
+        rhino.style.backgroundPosition = "center";
+        rhino.style.backgroundRepeat = "no-repeat";
+    }
+
+    jiabao.addEventListener("click", small)
+
+    </script>
+
+</body>
+</html>
